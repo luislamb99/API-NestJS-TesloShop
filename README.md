@@ -11,13 +11,19 @@ git clone https://github.com/luislamb99/API-NestJS-TesloShop.git
 2. Instalar las dependiencias
 ```
 yarn install
+yarn add @nestjs/config @nestjs/typeorm typeorm pg class-validator class-transformer uuid
+yarn add -D @types/uuid
 ```
-3. Clonar el archivo __.env.template__ y renombrar a __.env__ y completar las variables de entorno
-4. Levantar la base de datos postgres de docker
+3. La documentación se puede encontrar en:
+```
+https://docs.nestjs.com/techniques/database
+```
+4. Clonar el archivo __.env.template__ y renombrar a __.env__ y completar las variables de entorno
+5. Levantar la base de datos postgres de docker
 ```
 docker-compose up -d
 ```
-4. Levantar el servidor de producción
+6. Levantar el servidor de producción
 ```
 yarn start:dev
 ```
