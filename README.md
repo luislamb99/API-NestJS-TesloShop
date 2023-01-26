@@ -27,3 +27,7 @@ docker-compose up -d
 ```
 yarn start:dev
 ```
+7. Ejecutar SEED (borra e inserta nuevamente la data de prueba en DB)
+```
+petición GET a http://localhost:3000/api/seed
+```
