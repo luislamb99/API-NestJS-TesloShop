@@ -12,7 +12,7 @@ git clone https://github.com/luislamb99/API-NestJS-TesloShop.git
 ```
 yarn install
 yarn add @nestjs/config @nestjs/typeorm typeorm pg class-validator class-transformer uuid
-yarn add -D @types/uuid
+yarn add -D @types/uuid @types/multer
 ```
 3. La documentación se puede encontrar en:
 ```
